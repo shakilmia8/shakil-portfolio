@@ -2,8 +2,10 @@ body{
     margin: 0px;
     font-family: 'Roboto Slab', serif;
 }
-section{
+.width{
     display: flex;
+}
+section{
     margin-bottom: 100px;
 }
 .half-width{
