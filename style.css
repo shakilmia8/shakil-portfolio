@@ -2,10 +2,36 @@ body{
     margin: 0px;
     font-family: 'Roboto Slab', serif;
 }
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 30px;
+}
+.half-width p{
+    text-align: justify;
+}
 .orange-color{
     color: orange;
 }
-h1{
+.half-width h1{
     font-weight: 700px;
+    font-size: 70px;
+}
+.half-width h2{
     font-size: 50px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
 }
