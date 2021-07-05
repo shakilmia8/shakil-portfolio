@@ -4,6 +4,8 @@ body{
 }
 .width{
     display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 section{
     margin-bottom: 100px;
@@ -25,9 +27,9 @@ section{
 }
 .head{
     font-weight: 700px;
-    font-size: 70px;}
-.half-width h2{
-    font-size: 50px;
+    font-size: 60px;}
+.width h2{
+    font-size: 40px;
 }
 .link{
     text-decoration: none;
@@ -35,4 +37,25 @@ section{
     padding: 10px 40px;
     color: white;
     font-weight: 700;
+}
+.developer{
+    width: 42%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 25px;
+    padding-right: 8px;
+    text-align: justify;
+}
+#line{
+    border-left: 7px solid; border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#linee{
+    border-left: 7px solid; border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 18px;
 }
